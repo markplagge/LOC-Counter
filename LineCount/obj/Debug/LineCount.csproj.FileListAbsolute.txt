@@ -1,0 +1,9 @@
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\bin\Debug\LineCount.dll.config
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\bin\Debug\LineCount.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\bin\Debug\LineCount.pdb
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\obj\Debug\LineCount.csprojResolveAssemblyReference.cache
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\obj\Debug\LineCount.MainForm.resources
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\obj\Debug\LineCount.Properties.Resources.resources
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\obj\Debug\LineCount.csproj.GenerateResource.Cache
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\obj\Debug\LineCount.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project5\LineCount\obj\Debug\LineCount.pdb

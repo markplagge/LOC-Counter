@@ -1,0 +1,80 @@
+﻿<Window x:Class="GraphicalInterface.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="494" Width="896" SnapsToDevicePixels="True">
+    <Window.Resources>
+        <Storyboard x:Key="unBlurBoard" x:Name="unBlurMe">
+            <!-- Blur the items if there are no active choices-->
+            <DoubleAnimation
+                        Storyboard.TargetName="BlurInactive"
+                        Storyboard.TargetProperty="Radius"
+                        From="20" To="0" Duration="0:0:0.5"
+                        AutoReverse="False" />
+        </Storyboard>
+
+        <Storyboard x:Key="blurBoard" x:Name="blurMe">
+            <!-- Blur the items if there are no active choices-->
+            <DoubleAnimation
+                        Storyboard.TargetName="BlurInactive"
+                        Storyboard.TargetProperty="Radius"
+                        From="0" To="40" Duration="0:0:1.5"
+                        AutoReverse="False" />
+        </Storyboard>
+    </Window.Resources>
+
+
+    <Grid Height="453" Width="877">
+        <Border BorderBrush="Silver" BorderThickness="1" Height="208" Margin="292,72,292,0" Name="border1" VerticalAlignment="Top" Visibility="Hidden"></Border>
+        <TextBox Height="249" HorizontalAlignment="Left" Margin="0,31,0,0" Name="txtCode" VerticalAlignment="Top" Width="286" AcceptsReturn="True" AcceptsTab="True" >
+        </TextBox>
+        <Button Content="Load File 1" Height="23" HorizontalAlignment="Left" Margin="288,30,0,0" Name="btnLoadFile1" VerticalAlignment="Top" Width="74" Click="btnLoadFile1_Click">
+        </Button>
+        <TextBox AcceptsReturn="True" AcceptsTab="True" Height="249" Margin="595,31,0,0" Name="codeText2" VerticalAlignment="Top" />
+        <Button Content="Load File 2" Height="23" Margin="0,30,284,0" Name="btnLoadFileTwo" VerticalAlignment="Top" HorizontalAlignment="Right" Width="75" Click="btnLoadFileTwo_Click">
+        </Button>
+        <CheckBox Content="Loaded?" Height="16" HorizontalAlignment="Left" Margin="405,52,0,0" Name="loadedFile" VerticalAlignment="Top" IsEnabled="False" />
+
+
+
+        <!-- This is the code comparison option stuff -->
+        <Grid Name="gridAnalyzingCode">
+            
+            <Grid.Effect>
+                <BlurEffect x:Name="BlurInactive" Radius="20"></BlurEffect>
+            </Grid.Effect>
+            <TextBlock Height="23" HorizontalAlignment="Left" Margin="313,205,0,0" Name="txtBlockResults"  VerticalAlignment="Top" Width="251" TextAlignment="Center">
+            <Bold>Results of Comparisons:</Bold>
+            </TextBlock>
+
+            <GroupBox Header="Code Controls" Height="123" HorizontalAlignment="Left" Margin="306,74,0,0" Name="grpCodeControls" VerticalAlignment="Top" Width="264" Visibility="Visible">
+
+                <Grid Visibility="Visible">
+
+                    <Button Content="Remove Comments" Height="37" Margin="0,10,0,0" Name="btn_removeComments" VerticalAlignment="Top" HorizontalAlignment="Center" Width="117" Click="btn_removeComments_Click_1" IsEnabled="False" />
+                    <Button Content="Compare Code" Height="37" HorizontalAlignment="Center" Margin="0,58,0,0" Name="btnCompareCode" VerticalAlignment="Top" Width="113" Click="btnCompareCode_Click" IsEnabled="False" />
+                </Grid>
+                <GroupBox.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="#2800FF00" Offset="0" />
+                        <GradientStop Color="Transparent" Offset="1" />
+                    </LinearGradientBrush>
+                </GroupBox.Background>
+            </GroupBox>
+            <Grid Height="207" Margin="288,234,284,0" Name="grdResults" VerticalAlignment="Top" ShowGridLines="False" >
+                <Grid.Background>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Transparent" Offset="0" />
+                        <GradientStop Color="#1E00FF00" Offset="1" />
+                    </LinearGradientBrush>
+                </Grid.Background>
+                
+                <Label Content="Code Stats" Height="28" HorizontalAlignment="Left" Name="label1" VerticalAlignment="Top" Width="82" />
+                <TextBlock Height="26" HorizontalAlignment="Left" Margin="7,27,0,0" Name="textBaseCode" Text="." VerticalAlignment="Top" Width="290" TextWrapping="WrapWithOverflow" />
+                <TextBlock Height="26" HorizontalAlignment="Left" Margin="6,56,0,0" Name="textAddedCode" Text="." VerticalAlignment="Top" Width="290" TextWrapping="WrapWithOverflow" />
+                <TextBlock Height="26" HorizontalAlignment="Left" Margin="6,88,0,0" Name="textDeletedCode" Text="." VerticalAlignment="Top" Width="290" TextWrapping="WrapWithOverflow" />
+            </Grid>
+        </Grid>
+        <Button Content="Reset" Height="23" HorizontalAlignment="Left" Margin="400,10,0,0" Name="btn_reset" VerticalAlignment="Top" Width="75" Click="btn_reset_Click" />
+
+    </Grid>
+</Window>
