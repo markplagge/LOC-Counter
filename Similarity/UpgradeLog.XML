@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WordsMatching">
+</Property><Property Name="Solution File" Value="C:\Users\Shyguy\Dropbox\Software Eng\Project 6\Similarity\WordsMatching.sln">
+</Property><Property Name="Date" Value="Wednesday, October 24, 2012">
+</Property><Property Name="Time" Value="15:00 PM">
+</Property></Properties><Event ErrorLevel="0" Project="WordsMatching" Source="WordsMatching.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="WordsMatching" Source="WordsMatching.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="WordsMatching.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WordsMatching.sln" Description="Converted">
+</Event></UpgradeLog>

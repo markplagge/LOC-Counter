@@ -34,8 +34,6 @@ namespace GraphicalInterface
         {
             this.InitializeComponent();
         }
-
-    
         private void btnLoadFile1_Click(object sender, RoutedEventArgs e)
         {
             string code = loadFile();
@@ -44,7 +42,6 @@ namespace GraphicalInterface
             this.checkLoaded();
 
         }
-
         private void btnLoadFileTwo_Click(object sender, RoutedEventArgs e)
         {
             string code = loadFile();
@@ -52,16 +49,14 @@ namespace GraphicalInterface
             code2 = new CodeCounterLibrary.CodeText(code);
             this.checkLoaded();
         }
-
         private void checkLoaded()
         {
-            if((txtCode.Text.Count() > 5 && codeText2.Text.Count() > 5))
+            if ((txtCode.Text.Count() > 5 && codeText2.Text.Count() > 5))
             {
                 loadedFile.IsChecked = true;
-
                 var sb = (Storyboard)this.FindResource("unBlurBoard");
                 sb.Begin();
-               // gridAnalyzingCode.IsEnabled = true;
+                // gridAnalyzingCode.IsEnabled = true;
                 btn_removeComments.IsEnabled = true;
             }
             else
@@ -71,12 +66,11 @@ namespace GraphicalInterface
                     var sb = (Storyboard)this.FindResource("blurBoard");
                     sb.Begin();
                     loadedFile.IsChecked = false;
-                 //   gridAnalyzingCode.IsEnabled = false;
+                    //   gridAnalyzingCode.IsEnabled = false;
                 }
-                
+
             }
         }
-
         /// <summary>
         /// Loads a file into a string.
         /// </summary>
@@ -92,7 +86,7 @@ namespace GraphicalInterface
             {
                 try
                 {
-                    lines = File.ReadAllText(filedlg.FileName);               
+                    lines = File.ReadAllText(filedlg.FileName);
                 }
                 catch (Exception ex)
                 {
@@ -103,77 +97,77 @@ namespace GraphicalInterface
         }
         private void multiThreadCodeCount()
         {
-            //txtCode.Text = "Processing";
-            //codeText2.Text = "Processing";
-
-
             code1Thread = new Thread(new ThreadStart(code1.countLines));
             code2Thread = new Thread(new ThreadStart(code2.countLines));
-           
             code1Thread.Start();
             code2Thread.Start();
             while (!code1Thread.IsAlive) ;
             while (!code2Thread.IsAlive) ;
             code1Thread.Join();
             code2Thread.Join();
-         
-
-            
         }
         private void CodeCount()
         {
             code1.countLines();
             code2.countLines();
         }
-
-     
-       
         private void btn_removeComments_Click_1(object sender, RoutedEventArgs e)
         {
             if (txtCode.Text.Length > 10 && codeText2.Text.Length > 10)
             {
-                
-                //code1.countLines();
-                //multiThreadCodeCount();
 
-                Thread counter = new Thread(new ThreadStart(this.multiThreadCodeCount));
+               Thread counter = new Thread(new ThreadStart(this.multiThreadCodeCount));
                 counter.Start();
                 while (!counter.IsAlive) ;
                 counter.Join();
-
                 txtCode.Text = code1.ReadCodeText;
                 codeText2.Text = code2.ReadCodeText;
-                
                 //Prevent multi-use.
                 btn_removeComments.IsEnabled = false;
                 btnCompareCode.IsEnabled = true;
-               
+
             }
             else
             {
                 MessageBox.Show("Error, plz load files into both");
             }
         }
-
         private void btnCompareCode_Click(object sender, RoutedEventArgs e)
         {
+            code2 = new CodeCounterLibrary.CodeText(codeText2.Text);
+            code1 = new CodeCounterLibrary.CodeText(txtCode.Text);
             CodeComparison comp = new CodeComparison(code1, code2);
 
-            textBaseCode.Text = "";
-            textBaseCode.Inlines.Add(new Bold(new Run("Original Lines of Code: ")));
-            textBaseCode.Inlines.Add(new Run(txtCode.LineCount.ToString()));
+            textResults.Text = "";
+            string results;
+            results = "";
+            results += "Original Lines of Code: " ;
+            results += txtCode.LineCount.ToString() + "\n";
+            //textResults.Text = "";
+            results += "New Lines of Code: ";
+            results +=  comp.newLOC.ToString()+ "\n";
+            //textResults.Text = "";
+            results +=   "Deleted Lines of Code: ";
 
-            textAddedCode.Text = "";
-            textAddedCode.Inlines.Add(new Bold(new Run("Added Lines of Code: ")));
-            textAddedCode.Inlines.Add(new Run(comp.newLOC.ToString()));
+            var ex = comp.deletedLOC;
+            if (ex < 0)
+            {
+                ex = 0;
+            }
 
-            textDeletedCode.Text = "";
-            textDeletedCode.Inlines.Add(new Bold(new Run("Deleted Lines of Code: ")));
-            textDeletedCode.Inlines.Add(new Run(comp.deletedLOC.ToString()));
+            results += ex+ "\n";
+            results +=  ("\nTotal Lines of Code: ");
+            results +=(codeText2.LineCount.ToString());
 
+            results += "\nModified Lines of Code: ";
+            results += comp.modifiedLOC.ToString() + "\n";
+
+            results += "New & Changed Lines of Code: ";
+            int ttls = comp.modifiedLOC + comp.newLOC;
+            results += ttls + "\n";
+
+            textResults.Text = results;
             btnCompareCode.IsEnabled = false;
-
-
         }
 
         private void btn_reset_Click(object sender, RoutedEventArgs e)
@@ -182,6 +176,27 @@ namespace GraphicalInterface
             newWindow.Show();
             this.Close();
         }
+
+        private void simTest_Click(object sender, RoutedEventArgs e)
+        {
+
+            //first we remove and check for modified lines:
+            //WordsMatching.MatchsMaker ms;
+            //IEnumerable<string> modifiedCode;
+            //List<string> comparisonResults = new List<string>();
+            //ms = new WordsMatching.MatchsMaker(codeText2.Text, txtCode.Text);
+            //MessageBox.Show("Sim is " + ms.GetScore());
+
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+            
+        
+       
     }
+        
 }
 

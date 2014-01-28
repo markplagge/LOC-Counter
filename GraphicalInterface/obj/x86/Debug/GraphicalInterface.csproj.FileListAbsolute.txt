@@ -18,3 +18,47 @@ C:\Users\Shyguy\Dropbox\Software Eng\Project5\GraphicalInterface\obj\x86\Debug\G
 C:\Users\Shyguy\Dropbox\Software Eng\Project5\GraphicalInterface\obj\x86\Debug\GraphicalInterface.exe
 C:\Users\Shyguy\Dropbox\Software Eng\Project5\GraphicalInterface\obj\x86\Debug\GraphicalInterface.pdb
 C:\Users\Shyguy\Dropbox\Software Eng\Project5\GraphicalInterface\bin\Debug\GraphicalInterface.exe.config
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\GraphicalInterface.exe.config
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\GraphicalInterface.exe
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\GraphicalInterface.pdb
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\GraphicalInterface.exe
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\GraphicalInterface.pdb
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\CodeCounterLibrary.dll
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\IREmbeddedApp.dll
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\Serfs.dll
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\BooLibs.dll
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\Boo.Lang.dll
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\CodeCounterLibrary.pdb
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\bin\Debug\BooLibs.pdb
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\MainWindow.baml
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\App.g.cs
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\GraphicalInterface_MarkupCompile.cache
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\GraphicalInterface.g.resources
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\GraphicalInterface.Properties.Resources.resources
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Mark\Dropbox\Software Eng\Project 5 - Final\GraphicalInterface\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\GraphicalInterface.exe.config
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\GraphicalInterface.exe
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\GraphicalInterface.pdb
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\CodeCounterLibrary.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\IREmbeddedApp.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\Serfs.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\BooLibs.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\SimMetrics.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\Boo.Lang.dll
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\CodeCounterLibrary.pdb
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\BooLibs.pdb
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\SimMetrics.pdb
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\bin\Debug\SimMetrics.xml
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\GraphicalInterface.csprojResolveAssemblyReference.cache
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\MainWindow.baml
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\App.g.cs
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\GraphicalInterface_MarkupCompile.cache
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\GraphicalInterface.g.resources
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\GraphicalInterface.Properties.Resources.resources
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\GraphicalInterface.csproj.GenerateResource.Cache
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\GraphicalInterface.exe
+C:\Users\Shyguy\Dropbox\Software Eng\Project 6\GraphicalInterface\obj\x86\Debug\GraphicalInterface.pdb

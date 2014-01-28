@@ -1,0 +1,14 @@
+.svn
+prebuild.bat
+postbuild.bat
+Serfs.4.5.resharper
+Serfs.4.5.resharper.user
+Serfs.suo
+_ReSharper.Serfs/*
+ResourcesForSerfsTest/bin/
+ResourcesForSerfsTest/obj/
+Serfs/bin/Serfs.pdb
+Serfs/bin/Coverage.Log
+Serfs/obj/
+TestSerfs/bin/
+TestSerfs/obj/

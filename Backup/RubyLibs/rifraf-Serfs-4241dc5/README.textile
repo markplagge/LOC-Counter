@@ -1,0 +1,44 @@
+h1. Serfs
+
+(More detail on the Wiki pages)
+
+Serfs is a *Simple Embedded Resource File System* for .Net
+
+Embedded resources are files in a .Net Assembly which have their Build Action Property set to *Embedded Resource*. They can be placed in a directory-like structure.
+
+Serfs provides simple read-only access to such files in a way similar to reading files from disk. 
+
+e.g. <pre><code>  Stream stream = serfs.OpenRead("files/test.txt")
+  string sb = serfs.Read("./test.txt");
+  string st = serfs.ReadText("test.txt");
+</code></pre>
+
+You can tell Serfs which assemblies contain files, and which files to include. The files are merged into one collection so that they can be accessed as one _virtual disk_. You can create as many virtual disks as you like - just create separate instances.
+
+The quickest way to explore in full what Serfs can do is to look at the unit tests in @TestSerfs/TestSerfs.cs@.
+
+h2. Notes
+
+* Paths and file names are case-insensitive.
+* You can use forward @/@ or back @\@ slashes are directory separators.
+* Although Serfs uses a traditional @folder/filename@ or @folder\filename@ path convention, embedded resources are actually stored with @.@ separators. There are other name adjustments too, such as spaces and @-@ being as @_@.  Serfs will try to find the correct file, but it won't be able to differentiate between, say, @A file@ and @A_file@
+
+h2. Security
+
+The content of the embedded resources in an assembly is easily read by external programs. 
+
+If you want to avoid shipping sensitive information in plain-text, you can encode the file content before you build the assembly. You can then supply a decode routine to Serfs, and it will perform the decoding on the fly. 
+
+h2. Contents
+
+This repository contains 3 projects:
+
+# *Serfs* : The core Serfs dll.
+# *TestSerfs* : Tests for Serfs. Uses Gallio / MbUnit. Can be used as a reference for the API.
+# *ResourcesForSerfsTest* : A DLL containing no code, just embedded resources for TestSerfs.
+
+h2. License
+
+Copyright (c) 2010 David Lake (rifraf -> rifraf.net)
+
+Released under the MIT license. See LICENSE file for details.

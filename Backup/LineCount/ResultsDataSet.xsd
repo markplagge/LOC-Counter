@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ResultsDataSet" targetNamespace="http://tempuri.org/ResultsDataSet.xsd" xmlns:mstns="http://tempuri.org/ResultsDataSet.xsd" xmlns="http://tempuri.org/ResultsDataSet.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ResultsDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ResultsDataSet" msprop:Generator_DataSetName="ResultsDataSet">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="Results" msprop:Generator_UserTableName="Results" msprop:Generator_RowDeletedName="ResultsRowDeleted" msprop:Generator_RowChangedName="ResultsRowChanged" msprop:Generator_RowClassName="ResultsRow" msprop:Generator_RowChangingName="ResultsRowChanging" msprop:Generator_RowEvArgName="ResultsRowChangeEvent" msprop:Generator_RowEvHandlerName="ResultsRowChangeEventHandler" msprop:Generator_TableClassName="ResultsDataTable" msprop:Generator_TableVarName="tableResults" msprop:Generator_RowDeletingName="ResultsRowDeleting" msprop:Generator_TablePropName="Results">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ShortName" msprop:Generator_UserColumnName="ShortName" msprop:Generator_ColumnVarNameInTable="columnShortName" msprop:Generator_ColumnPropNameInRow="ShortName" msprop:Generator_ColumnPropNameInTable="ShortNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RelativeName" msprop:Generator_UserColumnName="RelativeName" msprop:Generator_ColumnVarNameInTable="columnRelativeName" msprop:Generator_ColumnPropNameInRow="RelativeName" msprop:Generator_ColumnPropNameInTable="RelativeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Lines" msprop:Generator_UserColumnName="Lines" msprop:Generator_ColumnVarNameInTable="columnLines" msprop:Generator_ColumnPropNameInRow="Lines" msprop:Generator_ColumnPropNameInTable="LinesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="BlankLines" msprop:Generator_UserColumnName="BlankLines" msprop:Generator_ColumnVarNameInTable="columnBlankLines" msprop:Generator_ColumnPropNameInRow="BlankLines" msprop:Generator_ColumnPropNameInTable="BlankLinesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="DesignerLines" msprop:Generator_UserColumnName="DesignerLines" msprop:Generator_ColumnVarNameInTable="columnDesignerLines" msprop:Generator_ColumnPropNameInRow="DesignerLines" msprop:Generator_ColumnPropNameInTable="DesignerLinesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="CommentsLines" msprop:Generator_UserColumnName="CommentsLines" msprop:Generator_ColumnPropNameInRow="CommentsLines" msprop:Generator_ColumnVarNameInTable="columnCommentsLines" msprop:Generator_ColumnPropNameInTable="CommentsLinesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ProjectShortName" msprop:Generator_UserColumnName="ProjectShortName" msprop:Generator_ColumnVarNameInTable="columnProjectShortName" msprop:Generator_ColumnPropNameInRow="ProjectShortName" msprop:Generator_ColumnPropNameInTable="ProjectShortNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProjectRelativeName" msprop:Generator_UserColumnName="ProjectRelativeName" msprop:Generator_ColumnVarNameInTable="columnProjectRelativeName" msprop:Generator_ColumnPropNameInRow="ProjectRelativeName" msprop:Generator_ColumnPropNameInTable="ProjectRelativeNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ProjectLines" msprop:Generator_UserColumnName="ProjectLines" msprop:Generator_ColumnVarNameInTable="columnProjectLines" msprop:Generator_ColumnPropNameInRow="ProjectLines" msprop:Generator_ColumnPropNameInTable="ProjectLinesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ProjectBlankLines" msprop:Generator_UserColumnName="ProjectBlankLines" msprop:Generator_ColumnVarNameInTable="columnProjectBlankLines" msprop:Generator_ColumnPropNameInRow="ProjectBlankLines" msprop:Generator_ColumnPropNameInTable="ProjectBlankLinesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ProjectDesignerLines" msprop:Generator_UserColumnName="ProjectDesignerLines" msprop:Generator_ColumnVarNameInTable="columnProjectDesignerLines" msprop:Generator_ColumnPropNameInRow="ProjectDesignerLines" msprop:Generator_ColumnPropNameInTable="ProjectDesignerLinesColumn" type="xs:int" minOccurs="0" />
+              <xs:element name="ProjectCommentsLines" msprop:Generator_UserColumnName="ProjectCommentsLines" msprop:Generator_ColumnPropNameInRow="ProjectCommentsLines" msprop:Generator_ColumnVarNameInTable="columnProjectCommentsLines" msprop:Generator_ColumnPropNameInTable="ProjectCommentsLinesColumn" type="xs:int" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

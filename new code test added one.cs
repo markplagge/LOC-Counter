@@ -1,14 +1,18 @@
 namespace CodeCounterLibrary
 {
-    using System;
-    using System.Collections.Generic;
-    using System.Reflection;
-    using System.Linq;
-    using System.Text;
-    using IronRuby;
-    using IronRuby.Runtime;
-    using Microsoft.Scripting;
-    using Microsoft.Scripting.Hosting;
+	There are 3 new lines in this code.
+	There are 4 modified lines in this code.
+	There are 5 deleted lines in this code (using comments).
+	
+    using System MOD1;
+    using System.Collections.GenericMOD2;
+    using System.ReflectionMOD3;
+    using System.LinqMOD4;
+    //using System.Text;
+    //using IronRuby;
+    //using IronRuby.Runtime;
+    //using Microsoft.Scripting;
+    //using Microsoft.Scripting.Hosting;
     using Microsoft.Scripting.Hosting.Providers;
     using SERFS;
     using BooLibs;
@@ -17,14 +21,11 @@ namespace CodeCounterLibrary
 
     public class CodeText
     {
-		private this is a new line of code!!!!
-		
-		and this is another line of code!!
         /**
          * DataMembers
          * */
         #region stringParameters
-        
+        private string fullText;
         //private string pathOfFile;
         private List<string> linesOfText;
         /// <summary>

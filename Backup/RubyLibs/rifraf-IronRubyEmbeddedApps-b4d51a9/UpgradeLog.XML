@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="IREmbeddedApp">
+</Property><Property Name="Solution File" Value="C:\Users\Shyguy\Dropbox\Software Eng\Project5\RubyLibs\rifraf-IronRubyEmbeddedApps-b4d51a9\IREmbeddedApp.sln">
+</Property><Property Name="Date" Value="Tuesday, October 16, 2012">
+</Property><Property Name="Time" Value="11:22 AM">
+</Property></Properties><Event ErrorLevel="1" Project="IREmbeddedApp" Source="IREmbeddedApp\IREmbeddedApp.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="IREmbeddedApp" Source="IREmbeddedApp\IREmbeddedApp.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IREmbeddedApp" Source="IREmbeddedApp\IREmbeddedApp.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="IRTestResources" Source="IRTestResources\IRTestResources.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="IRTestResources" Source="IRTestResources\IRTestResources.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IRTestResources" Source="IRTestResources\IRTestResources.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="ExampleApps" Source="ExampleApps\ExampleApps.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="ExampleApps" Source="ExampleApps\ExampleApps.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ExampleApps" Source="ExampleApps\ExampleApps.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="IRSinatra" Source="IRSinatra\IRSinatra.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="IRSinatra" Source="IRSinatra\IRSinatra.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IRSinatra" Source="IRSinatra\IRSinatra.csproj" Description="Converted">
+</Event><Event ErrorLevel="1" Project="IREmbeddedLibraries" Source="IREmbeddedLibraries\IREmbeddedLibraries.csproj" Description="Your project is targeting .NET Framework 2.0 or 3.0. If your project uses assemblies requiring a newer .NET Framework, your project will fail to build. You can change the .NET Framework version by clicking Properties on the project menu and then selecting a new version in the '.NET Framework' dropdown box. (In Visual Basic, this is located on the Compile tab by clicking the 'Advanced Compiler Options...' button.)">
+</Event><Event ErrorLevel="0" Project="IREmbeddedLibraries" Source="IREmbeddedLibraries\IREmbeddedLibraries.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="IREmbeddedLibraries" Source="IREmbeddedLibraries\IREmbeddedLibraries.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="IREmbeddedApp.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="IREmbeddedApp.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="IREmbeddedApp" Source="IREmbeddedApp\IREmbeddedApp.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="IRTestResources" Source="IRTestResources\IRTestResources.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="ExampleApps" Source="ExampleApps\ExampleApps.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="IRSinatra" Source="IRSinatra\IRSinatra.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="IREmbeddedLibraries" Source="IREmbeddedLibraries\IREmbeddedLibraries.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
